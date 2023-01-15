@@ -1,8 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
-import Header from "../pages/components/header.js"
 
-const BlogPage = () => {
+const Header = () => {
   return (
     <header>
       <div className="headerInner">
@@ -18,4 +17,4 @@ const BlogPage = () => {
   )
 }
 
-export default BlogPage
+export default Header
